@@ -1,0 +1,88 @@
+{
+  "data_quality": {
+    "sample_size": 50,
+    "missing_title": 0,
+    "missing_abstract": 0,
+    "missing_decision": 12,
+    "decision_counts": {
+      "Reject": 22,
+      "Accept": 10,
+      "Accept (poster)": 5,
+      "Accept (spotlight)": 1
+    },
+    "year_counts": {
+      "2025": 32,
+      "2024": 18
+    }
+  },
+  "review_disagreement": {
+    "score_variance": {
+      "count": 50.0,
+      "mean": 1.03,
+      "std": 0.7382411530116699,
+      "min": 0.0,
+      "25%": 0.5,
+      "50%": 0.5,
+      "75%": 2.0,
+      "max": 2.0
+    },
+    "score_mean": {
+      "count": 50.0,
+      "mean": 6.51,
+      "std": 1.0472997348867599,
+      "min": 1.0,
+      "25%": 6.5,
+      "50%": 6.5,
+      "75%": 7.0,
+      "max": 7.5
+    },
+    "suggestion_similarity_mean": {
+      "count": 50.0,
+      "mean": 0.22091041378226342,
+      "std": 0.06042857374197567,
+      "min": 0.10613544686005821,
+      "25%": 0.1792816416025508,
+      "50%": 0.22088348436640276,
+      "75%": 0.2588545364059337,
+      "max": 0.37748688596348234
+    }
+  },
+  "suggestion_similarity": {
+    "similarity": {
+      "count": 50.0,
+      "mean": 0.22091041378226342,
+      "std": 0.06042857374197567,
+      "min": 0.10613544686005821,
+      "25%": 0.1792816416025508,
+      "50%": 0.22088348436640276,
+      "75%": 0.2588545364059337,
+      "max": 0.37748688596348234
+    }
+  },
+  "improvement_stats": [
+    {
+      "metric": "clarity",
+      "mean_delta_single": 0.54,
+      "mean_delta_multi": 0.46,
+      "t_stat": 1.4288690166235205,
+      "p_value": 0.15938605197461633,
+      "cohen_d": -0.202072594216369
+    },
+    {
+      "metric": "novelty",
+      "mean_delta_single": 0.54,
+      "mean_delta_multi": 0.52,
+      "t_stat": 0.33035042472810605,
+      "p_value": 0.742543543361841,
+      "cohen_d": -0.04671860509861999
+    },
+    {
+      "metric": "overall",
+      "mean_delta_single": 0.2,
+      "mean_delta_multi": 0.14,
+      "t_stat": 1.7685190342396897,
+      "p_value": 0.08319896692938429,
+      "cohen_d": -0.25010636035367373
+    }
+  ]
+}

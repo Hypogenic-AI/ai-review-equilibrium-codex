@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "sample_size": 50,
+  "reviewer_models": [
+    "anthropic/claude-sonnet-4.5",
+    "openai/gpt-4.1"
+  ],
+  "single_reviewer": "anthropic/claude-sonnet-4.5",
+  "author_model": "openai/gpt-4.1",
+  "judge_model": "openai/gpt-4.1-mini",
+  "timestamp": "2025-12-29T07:09:05.307206"
+}
